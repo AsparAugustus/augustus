@@ -10,6 +10,9 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		transitionProperty: {
+			transform: 'transform',
+		  },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
