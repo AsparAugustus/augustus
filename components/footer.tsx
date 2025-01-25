@@ -13,9 +13,7 @@ export function Footer() {
 
           {/* Navigation */}
           <nav className="flex flex-col md:flex-row gap-4 md:gap-8">
-            <Link href="/contact" className="text-sm text-secondary hover:text-secondary/80 transition-colors">
-              CONTACT
-            </Link>
+          
             <Link href="/support" className="text-sm text-foreground/80 hover:text-secondary transition-colors">
               SUPPORT
             </Link>

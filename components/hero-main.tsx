@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import Image from "next/image"
+import { motion } from "framer-motion";
+import Image from "next/image";
 
 export function HeroMain() {
   return (
@@ -37,18 +37,25 @@ export function HeroMain() {
           >
             Your Meme Game is Our Business
           </motion.h1>
-
           <motion.p
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
             className="text-xl text-white max-w-xl"
           >
-            We turn viral moments into viral movements. Professional community management with a side of dank memes.
+            We turn viral moments into viral movements.
+          </motion.p>
+          <motion.p
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.6 }}
+            className="text-xl text-white max-w-xl"
+          >
+            Professional community management and marketing with a side of dank
+            memes.
           </motion.p>
         </div>
       </div>
     </section>
-  )
+  );
 }
-

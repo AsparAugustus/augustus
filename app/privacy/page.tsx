@@ -40,16 +40,6 @@ export default function PrivacyPolicyPage() {
               service providers who assist us in operating our business.
             </p>
           </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">4. Contact Us</h2>
-            <p className="text-muted-foreground">
-              If you have any questions about this Privacy Policy, please contact us at{" "}
-              <a href="mailto:privacy@augustus.com" className="text-secondary hover:underline">
-                privacy@augustus.com
-              </a>
-            </p>
-          </section>
         </div>
       </div>
     </main>

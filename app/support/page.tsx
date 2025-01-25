@@ -17,9 +17,7 @@ export default function SupportPage() {
                 <p className="text-muted-foreground mb-4">
                   Send us an email and we'll get back to you within 24 hours.
                 </p>
-                <a href="mailto:support@augustus.com" className="text-secondary hover:underline">
-                  support@augustus.com
-                </a>
+             
               </div>
 
               <div className="p-6 rounded-lg bg-card">

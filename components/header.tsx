@@ -5,6 +5,16 @@ import { motion } from "framer-motion"
 import { Send, MessageSquare } from "lucide-react"
 
 export function Header() {
+
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    e.preventDefault();
+    const targetElement = document.getElementById('contact');
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+
   return (
     <motion.header
       initial={{ y: -100 }}
@@ -22,21 +32,22 @@ export function Header() {
             <Link href="/" className="text-foreground/80 hover:text-secondary transition-colors">
               Home
             </Link>
-            <Link href="/case-studies" className="text-foreground/80 hover:text-secondary transition-colors">
+            {/* <Link href="/case-studies" className="text-foreground/80 hover:text-secondary transition-colors">
               Case Studies
-            </Link>
-            <Link href="/contact" className="text-foreground/80 hover:text-secondary transition-colors">
-              Contact
-            </Link>
+            </Link> */}
+      <Link href="#contact" onClick={(e) => handleScroll(e)}>
+  Contact
+</Link>
+          
           </nav>
 
           <div className="flex items-center space-x-4">
-            <Link href="https://telegram.org" className="text-foreground/80 hover:text-primary transition-colors">
+            {/* <Link href="https://telegram.org" className="text-foreground/80 hover:text-primary transition-colors">
               <Send className="w-5 h-5" />
             </Link>
             <Link href="https://discord.com" className="text-foreground/80 hover:text-primary transition-colors">
               <MessageSquare className="w-5 h-5" />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

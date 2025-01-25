@@ -14,13 +14,13 @@ export function HeroProject() {
 
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <motion.div
+            <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
             className="relative"
-          >
-            <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 blur-xl rounded-2xl opacity-50" />
+            >
+            <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 blur-md rounded-2xl opacity-30" />
             <Image
               src="/chart-table.jpg"
               alt="Telegram App"
@@ -28,7 +28,7 @@ export function HeroProject() {
               height={400}
               className="relative rounded-2xl shadow-2xl mx-auto overflow-hidden object-cover"
             />
-          </motion.div>
+            </motion.div>
 
           <motion.div
             initial={{ opacity: 0, x: 50 }}
@@ -40,14 +40,13 @@ export function HeroProject() {
               WE'RE ALWAYS ON THE LOOKOUT FOR <span className="bg-gradient-to-r from-purple-500 to-purple-700 text-transparent bg-clip-text">ANOTHER EXCITING PROJECT.</span>
             </h2>
 
-            <div className="space-y-4 text-lg text-muted-foreground">
+            <div className="space-y-8 text-lg text-muted-foreground leading-relaxed">
               <p>
-                Augustus is an international company built around helping cryptocurrency companies get off their feet
-                with smart marketing strategies tailored towards long-term success while providing unparalleled
-                professional support at every turn.
+              Traditional marketing agencies avoid meme projects due to the risk to KOL reputations.
               </p>
-              <p>We're not just here when things go wrong — we aim to make sure everything goes right.</p>
-              <p>No hard sell. No pressure. Take your time and we'll be here when you're ready to talk.</p>
+              <p>
+              At Augustus, we offer custom community management and creative strategies to help cryptocurrency projects succeed. Our "replyguy" approach drives engagement and builds active, thriving communities.
+              </p>
             </div>
           </motion.div>
         </div>
