@@ -49,7 +49,7 @@ export function HeroMain() {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.6 }}
-            className="text-xl text-white max-w-xl"
+            className="text-xl text-white max-w-xl mt-0.5"
           >
             Professional community management and marketing with a side of dank
             memes.
