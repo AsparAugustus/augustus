@@ -71,8 +71,7 @@ export function HeroCalendly() {
             transition={{ duration: 0.5 }}
             className="bg-card overflow-hidden justify-center flex items-center"
             style={{
-              maxWidth: "500px",
-              maxHeight: "900px",
+              maxWidth: "100%",
               margin: "0 auto",
               padding: "1",
             }}
@@ -80,7 +79,7 @@ export function HeroCalendly() {
             <div
               className="calendly-inline-widget"
               data-url="https://calendly.com/speaktomerlin/30min"
-              style={{ minWidth: "420px", height: "800px" }}
+              style={{ minWidth: "420px", width: "100%", height: "800px" }}
             />
           </motion.div>
         </div>
